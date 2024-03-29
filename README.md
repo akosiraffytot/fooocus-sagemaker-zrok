@@ -1,10 +1,12 @@
-# Fooocus-Sagemaker-Studio-Lab
-Fooocus installer for Sagemaker Studio Lab
+# Fooocus + Sagemaker Studio Lab + ZROK
+Fooocus installer for Sagemaker Studio Lab and ZROK
 
-Simply add this repo to Sagemaker and run `sh start.sh`
+Forked from wandaweb's [Fooocus-Sagemaker-Studio-Lab](https://github.com/wandaweb/Fooocus-Sagemaker-Studio-Lab)
 
-How-to video:  
-<a href="https://youtu.be/lzBlCA-QWdA"><img src="https://i3.ytimg.com/vi/lzBlCA-QWdA/maxresdefault.jpg" width=500) /></a>
+##Installation
 
-### Installing in permanent storage
-The app gets installed in temporary storage and is reinstalled each time the Sagemaker instance is restarted. To install the app in permanent storage, make sure to have at least 7.4 GB free space and edit the file `start.sh` to set the variable `install_in_temp_dir` to `false` in line 4.
+1. You must have an account and token from [ZROK](https://zrok.io/).
+2. Edit `start.sh` file and change the `YOUR_ZROK_TOKEN_HERE` with your ZROK token in line 125. Ex: `zrok enable MWJPUtjRoUMy`
+3. Open terminal from Sagemaker then run `sh start.sh`
+
+You can check wandaweb's [Fooocus-Sagemaker-Studio-Lab](https://github.com/wandaweb/Fooocus-Sagemaker-Studio-Lab) instruction and How-to video for additional info
