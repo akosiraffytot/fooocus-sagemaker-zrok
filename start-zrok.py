@@ -16,5 +16,3 @@ if __name__ == "__main__":
     p2.start()
     p1.join()
     p2.join()
-
-print("Fooocus and Zrok started successfully!")
